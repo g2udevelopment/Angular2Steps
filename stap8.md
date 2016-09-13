@@ -162,3 +162,17 @@ Pas daarom nogmaals het template aan.
 ```
 
 Op dit moment moet je applicatie weer werken en kun je een held selecteren.
+
+We kunnen nu wel een held selecteren maar dit is niet visueel zichtbaar in de lijst zelf.
+in angular 2 is het erg makkelijk om classes conditioneel toe te voegen. Voeg pas de `<li>` in het template
+als volgt aan. de rechten haken `[]` is een zogenaamde value binding. 
+
+# app.component.ts
+```html
+<li *ngFor="let hero of heroes"
+  [class.selected]="hero === selectedHero"
+  (click)="onSelect(hero)">
+  <span class="badge">{{hero.id}}</span> {{hero.name}}
+</li>
+```
+
