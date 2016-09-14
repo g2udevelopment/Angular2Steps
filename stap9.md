@@ -61,7 +61,7 @@ Nu moeten we deze nieuwe class nog importeren in zowel de `app.component.ts` als
 import { Hero } from './hero';
 ```
 
-We gaan er nu voor zorgen dat de geselcteerde held in AppComponent ook wordt doorgegeven naar het detail component. We kunnen dit doen door een input decorator toe te voegen aan `hero-detail.component.ts`.
+We gaan er nu voor zorgen dat de geselecteerde held in AppComponent ook wordt doorgegeven naar het detail component. We kunnen dit doen door een input decorator toe te voegen aan `hero-detail.component.ts`.
 Voeg een `@Input()` decorator toe aan de hero property.
 
 ## hero-detail.component.ts

@@ -1,5 +1,5 @@
 # Stap 8 - Master / Detail
-We willen graag een lijst van helden hebben en deze kunnen bewerken in deze stap gaan we dat toevoegen.
+We willen graag een lijst van helden hebben en deze kunnen bewerken, in deze stap gaan we dat toevoegen.
 
 We beginnen met een array van helden dit is vooralsnog een vast lijstje maar later kan dit uit een service komen.
 
@@ -21,7 +21,7 @@ Voeg het volgende toe in AppComponent naast de classes.
     ];
 ```
 
-We kunnen nu deze lijst als propery aan het AppComponent toevoegen. Voeg het toe binnen de class AppComponent.
+We kunnen nu deze lijst als property aan het AppComponent toevoegen. Voeg het toe binnen de class AppComponent.
 
 ## app.component.ts
 ```javascript
@@ -45,7 +45,7 @@ html een template is en kan worden toegevoegd / verwijderd aan de DOM.
 
 Probeer nu eens om een extra held toe te voegen aan de array.
 
-Het lijstje is nu wel erg saai, we kunenn aan ieder component styling toevoegen. doe dit door de volgende 
+Het lijstje is nu wel erg saai, we kunnen aan ieder component styling toevoegen. doe dit door de volgende 
 styling toe tevoegen als property binnen de decorator `@Component`
 
 ## app.component.ts 
@@ -115,7 +115,7 @@ Pas het `<li>` stukje van de template als volgt aan.
     </li>
   ```
 
-We gaan nu bijhouden welke held geselecteerd is, we passen daarvoor is de statische hero property aan naar een selectedHero.
+We gaan nu bijhouden welke held geselecteerd is, we passen daarvoor de statische hero property aan naar een selectedHero.
 De applicatie gaat nu errors geven tot we een `ngIf` gaan toevoegen.
 
 # app.component.ts
@@ -164,7 +164,7 @@ Pas daarom nogmaals het template aan.
 Op dit moment moet je applicatie weer werken en kun je een held selecteren.
 
 We kunnen nu wel een held selecteren maar dit is niet visueel zichtbaar in de lijst zelf.
-in angular 2 is het erg makkelijk om classes conditioneel toe te voegen. Voeg pas de `<li>` in het template
+in angular 2 is het erg makkelijk om classes conditioneel toe te voegen. Pas de `<li>` in het template
 als volgt aan. de rechten haken `[]` is een zogenaamde value binding. 
 
 # app.component.ts

@@ -1,9 +1,9 @@
 # Stap 1 - Packages en project setup
 De volgende configuratie bestanden zijn nodig bij het maken van een angular 2 project.
 
-- **package.json** defintie van de npm packages en eventueel script die je kunt gebruiken.
+- **package.json** definitie van de npm packages en eventueel script die je kunt gebruiken.
 - **tsconfig.json** typescript configuratie
-- **typings.json** Extra typescript definties, de meeste definities zitten al bij de npm packages
+- **typings.json** Extra typescript definities, de meeste definities zitten al bij de npm packages
 - **systemjs.config.js** We gebruiken nu systemjs en dit is het configuratie bestand, webpack is een andere package manager die veel wordt gebruikt.
 
 Maak nu een directory aan waarin je je project wilt beginnen. Open deze directory vervolgens in visual studio code.
@@ -130,7 +130,7 @@ Neem de volgende code over in gelijknamige bestanden.
 ```
 
 # Installeren package
-Dit is de defintie van een standaard angular 2 project het is handig om deze bestanden ergens klaar te hebben staan als snelle bootstrap.
+Dit is de definitie van een standaard angular 2 project het is handig om deze bestanden ergens klaar te hebben staan als snelle bootstrap.
 Voer nu het commando `npm install` uit npm zal nu alle package binnen halen en lokaal opslaan.
 
 # Opdrachten

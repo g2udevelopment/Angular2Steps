@@ -1,5 +1,5 @@
 # Stap 3 - Een angular 2 component.
-Componenten zijn de bouw stenen van een angular 2 applicatie. Ze zijn een combinatie van logica en presentatie. Standaard zijn alle properties van een component
+Componenten zijn de bouwstenen van een angular 2 applicatie. Ze zijn een combinatie van logica en presentatie. Standaard zijn alle properties van een component
 beschikbaar binnen het template. Elke applicatie heeft minstens 1 component, nameljk het *rootcomponent*.
 
 Maak nu een component aan binnen de app directory `app.component.ts`

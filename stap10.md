@@ -74,7 +74,7 @@ Angular 2 doet DI op basis van het type en we kunnen dus een constructor aan `Ap
 constructor(private heroService: HeroService) { }
 ```
 
-Als we nu de code uitvoeren zien we een exception, de provider is namelijk nog iet geregistreerd. Voeg een property providers toe aan de @Component decorator.
+Als we nu de code uitvoeren zien we een exception, de provider is namelijk nog niet geregistreerd. Voeg een property providers toe aan de @Component decorator.
 
 ## app.component.ts
 ```javascript
@@ -91,7 +91,7 @@ getHeroes(): void {
 ```
 
 De constructor is geen goede plaats om de data initeel op te halen. Als we bijvoorbeeld een unit test schrijven willen we niet dat er een aanroep wordt gedaan naar een methode die misschien wel een service
-gaat aanroepen. We kunnen daar voor beter een lifecycle event van angular 2 gebruiken namelijk `ngOnInit`. We importen de `OnInit` module en we voegen de lifecycle event toe aan de `AppComponent` class.
+gaat aanroepen. We kunnen daar voor beter een lifecycle event van angular 2 gebruiken namelijk `ngOnInit`. We importeren de `OnInit` module en we voegen de lifecycle event toe aan de `AppComponent` class.
 pas `app.component.ts` als volgt aan, let op dat je de ngOnInit methode toevoegd en niet de hele AppComponent class overschrijft.
 
 ## app.component.ts

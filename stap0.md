@@ -7,7 +7,7 @@ We hebben het volgende nodig om alles te kunnen volgen.
 2. [Visual Studio Code](https://code.visualstudio.com/download)
 3. [Git for windows](https://git-scm.com/download/win)
 
-In visual studio code kun je een terminal openen `Ctrl+<backtick>` ook kan het handig zijn om met `Ctrl+Shift+P` het command pallet te openen.
+In visual studio code kun je een terminal openen `Ctrl+<backtick>` ook kan het handig zijn om met `Ctrl+Shift+P` het command pallet te openen. Met `Ctrl+P` kun je snel springen naar bestanden.
 
 Je kunt nu met `npm --version` kijken of npm en node goed geinstalleerd zijn.
 

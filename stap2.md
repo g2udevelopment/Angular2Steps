@@ -1,6 +1,6 @@
 # Stap 2 - Een angular 2 applicatie.
 Een angular 2 applicatie bestaat uit modules. Dit zijn classes met een `@NgModule` decorator.
-Op deze manier kun je functionaliteit groeperen. Een module bijvoorbeeld componenten, service of directives bevatten.
+Op deze manier kun je functionaliteit groeperen. Een module kan bijvoorbeeld componenten, service of directives bevatten.
 
 In de systemjs configuratie hebben we aangegeven dat onze applicatie zich bevindt in de directory **app**. Maak deze  directory nu aan.
 `app.module.js` is aangewezen als startup bestand. Maak een bestand `app.module.ts` aan in de app folder.

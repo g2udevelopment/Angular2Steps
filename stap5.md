@@ -32,7 +32,7 @@ Maak hiervoor een nieuw bestand in de root directory aan `index.html`.
 De pagina is als volgt opgebouwd.
 
 1. Laden van polyfills voor oudere browsers en systemjs.
-2. Configuratie inladen van systemjs
+2. Configuratie inladen van systemjs.
 3. Het laden van ons component. Componenten zijn beschikbaar middels de tag die gedefineerd is in het component via de selector.
 
 Om wat styling toe te voegen kun je een bestand `styles.css` aanmaken en onderstaande stylesheet daarin plakken.

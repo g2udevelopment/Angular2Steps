@@ -161,7 +161,7 @@ in `app.routing.ts`
 },
 ```
 
-In `app.component.ts` kunnen we nu ook een link plaatsen naar het dashboard. Doen dit door de `template` property in `app.component.ts` aan te passen.
+In `app.component.ts` kunnen we nu ook een link plaatsen naar het dashboard. Doe dit door de `template` property in `app.component.ts` aan te passen.
 
 ## app.component.ts
 ````html
@@ -518,7 +518,7 @@ template: `
 `,
 ````  
 
-
+De applicatie is nu compleet!
 
 
 

@@ -1,8 +1,8 @@
 # Stap 7 - Hero Editor
 We gaan nu beginnen met een 'grotere' applicatie, het is handig als je `npm start` op de achtergrond laat draaien zodat je telkens je wijzigingen in de browser kunt zien.
-Zo kun je na elke stap even kijken wat het resultaat is.
+Zo kun je na elke stap even kunt kijken wat het resultaat is.
 
-We passen eerst het AppComponent aan om ons applicatie een naam te geven en onze eerste held te maken.
+We passen eerst het AppComponent aan om onze applicatie een naam te geven en onze eerste held te maken.
 
 Pas de code in AppComponent als volgt aan.
 
@@ -66,7 +66,7 @@ We willen graag de details van een hero kunnen bewerken we veranderen daarom het
   </div>`
 ````
 
-We kunenn nu de naam wijzigen, echter als we de naam aanpassen dan zien we dit niet terug in de naam bovenaan de pagina.
+We kunnen nu de naam wijzigen, echter als we de naam aanpassen dan zien we dit niet terug in de naam bovenaan de pagina.
 Dit komt omdat de standaard binding in angular 2 een one-way binding is. We gaan hier nu een two-binding van maken.
 In angular 2 zit `ng-model`in een aparte module en we zullen deze eerst moeten laden. We passen hiervoor
 `app.module.ts` aan.
@@ -100,3 +100,5 @@ veld aan in de AppComponent.
 ```html
 <input [(ngModel)]="hero.name" placeholder="name">
 ```
+
+We kunnen de naam aanpassen en zien deze aanpassing ook terug in de titel.
