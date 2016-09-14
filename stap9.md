@@ -72,7 +72,7 @@ hero: Hero;
 
 Nu ons detail component af is gaan we deze bekend maken binnen de module. Ga naar `app.module.ts` en importeer het detail component.
 
- ## app.module.ts
+## app.module.ts
 ```javascript
 import { HeroDetailComponent } from './hero-detail.component';
 ```
