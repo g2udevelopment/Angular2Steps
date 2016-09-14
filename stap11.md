@@ -502,7 +502,21 @@ nav a:hover {
 nav a.active {
   color: #039be5;
 }
-``` 
+```
+
+Angular 2 router heeft een directive `routerLinkActive` die op basis van de actieve route een css class kan toevoegen. Verander het template in `app.component.ts` als volgt
+
+## app.component.ts
+````html
+template: `
+  <h1>{{title}}</h1>
+  <nav>
+    <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+    <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
+  </nav>
+  <router-outlet></router-outlet>
+`,
+````  
 
 
 
