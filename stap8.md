@@ -25,7 +25,7 @@ We kunnen nu deze lijst als property aan het AppComponent toevoegen. Voeg het to
 
 ## app.component.ts
 ```javascript
-heroes: HEROES;
+heroes= HEROES;
 ```
 
 We kunnen nu de lijst met helden opbouwen binnen onze template. Voeg de volgende code toe in de AppComponent
