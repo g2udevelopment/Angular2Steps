@@ -148,8 +148,7 @@ We gaan nu het nieuwe component bekend maken bij de routing module in `app.routi
 
 Het component is nog niet bekend in de `app.module.ts`. Importeer het `DashboardComponent` en voeg deze toe aan de `declarations` array (Doe dit zelf).
 
-Als je nu na deze stappen gaat naar de url `/dashboard` dan zul je op het nieuwe component uitkomen en van uit hier kan je weer navigeren naar onze helden. Als we nu naar de `/` van applicatie
-gaan dan selecteerd de router standaard de eerste route die hij tegenkomt. We kunnen er ook voor zorgen dat we standaard naar het dashboard navigeren. Voeg het volgende routing object toe aan de array met `Routes`
+Als je nu na deze stappen gaat naar de url `/dashboard` dan zul je op het nieuwe component uitkomen en van uit hier kan je weer navigeren naar onze helden. We kunnen er ook voor zorgen dat we standaard naar het dashboard navigeren. Voeg het volgende routing object toe aan de array met `Routes`
 in `app.routing.ts`
 
 ## app.routing.ts
