@@ -34,6 +34,6 @@ Ook de typings kunnen we updaten.
 
 `npm run typings -- install dt~core-js --global --save`
 
-`npm run typings -- install node --global --save`
+`npm run typings -- install dt~node --global --save`
 
 We kunnen nu `npm install` runnen om de nieuwste packages binnen te halen.
