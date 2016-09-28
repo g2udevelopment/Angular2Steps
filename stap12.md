@@ -1,5 +1,5 @@
 # Stap 12 - HTTP
-In deze stap gaan we de service aansluiten om een http service backend.
+In deze stap gaan we de service aansluiten op een http service backend.
 
 De http module om te communiceren met een http backend zit niet standaard in de angular core. We moeten dus de http module importeren.
 Ook systemjs moet weten dat we de http module gaan gebruiken *bekijk systemjs.config*
@@ -60,7 +60,7 @@ InMemoryWebApiModule.forRoot(InMemoryDataService),
 
 We gaan zo dadelijk de heroes service gebruik laten we eerst de mock data weg gooien. Delete de file `mock-heroes.ts`
 
-`Ga nu naar de hero service getHeroes methode. Pas als eerste de import sectie aan.
+Ga nu naar de hero service getHeroes methode. Pas als eerste de import sectie aan.
 
 ## hero.service.ts
 ```javascript 
