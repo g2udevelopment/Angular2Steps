@@ -19,7 +19,8 @@ export class AppModule { }
 Dit is de kleinste functionele angular 2 module. We gebruiken hier `BrowserModule` omdat we de applicatie in een browser gaan draaien in de module bevindt zich code specifiek 
 voor het draaien van een angular 2 app in de browser.
 
-Als we nu `npm run tsc` uitvoeren dan wordt ook de javascript voor de app.module gemaakt. In visual studio code is het erg handig om snel de javascript file te verbergen.
+Als we nu `npm run tsc` uitvoeren dan wordt ook de javascript voor de app.module gemaakt.Met `npm run <commando>` kun je dus commando's uitvoeren die je gedefinieerd hebt
+in het `scripts` gedeelte, er zijn ook een aantal standaard commando's zoals `npm start` die geen `run` vereisen .In visual studio code is het erg handig om snel de javascript file te verbergen.
 Open met `Ctrl+Shift+P` het command pallete en zoek user settings. Voeg hier het volgende blok aan toe tussen de root {}.
 
 ```javascript
