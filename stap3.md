@@ -20,3 +20,7 @@ Nu hebben we het eerste component gemaakt. We moeten deze nu nog toevoegen aan d
 - Importeer eerst het component in de module. *elke file is een module je kunt die importeren met ./app.component.ts*
 - Voeg het AppComponent toe als declarations property.*array*
 - Voeg het AppComponent toe als bootstrap property. *array* 
+
+## Tips
+- [Modules Import/Exports](https://www.typescriptlang.org/docs/handbook/modules.html)
+- [NgModule](https://angular.io/docs/ts/latest/guide/ngmodule.html#!#angular-modularity)
