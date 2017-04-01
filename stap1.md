@@ -24,30 +24,28 @@ Neem de volgende code over in gelijknamige bestanden.
     "typings": "typings"
   },
   "license": "ISC",
-  "dependencies": {
-    "@angular/compiler": "2.0.0-rc.6",
-    "@angular/compiler-cli": "0.6.0",
-    "@angular/core": "2.0.0-rc.6",
-    "@angular/forms": "2.0.0-rc.6",
-    "@angular/http": "2.0.0-rc.6",
-    "@angular/platform-server": "2.0.0-rc.6",
-    "@angular/platform-browser": "2.0.0-rc.6",
-    "@angular/platform-browser-dynamic": "2.0.0-rc.6",
-    "@angular/router": "3.0.0-rc.2",
-    "@angular/upgrade": "2.0.0-rc.6",
+    "dependencies": {
+    "@angular/compiler": "4.0.1",
+    "@angular/core": "4.0.1",
+    "@angular/forms": "4.0.1",
+    "@angular/http": "4.0.1",
+    "@angular/platform-browser": "4.0.1",
+    "@angular/platform-browser-dynamic": "4.0.1",
+    "@angular/router": "4.0.1",
+    "@angular/upgrade": "4.0.1",
     "core-js": "^2.4.1",
-    "reflect-metadata": "^0.1.3",
-    "rxjs": "5.0.0-beta.11",
-    "systemjs": "0.19.27",
-    "zone.js": "^0.6.17",
-    "angular2-in-memory-web-api": "0.0.18",
-    "bootstrap": "^3.3.6"
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "5.0.1",
+    "systemjs": "0.20.11",
+    "zone.js": "^0.8.5",
+    "angular-in-memory-web-api": "^0.3.1",
+    "bootstrap": "^3.3.7"
   },
   "devDependencies": {
-    "concurrently": "^2.2.0",
-    "lite-server": "^2.2.2",
-    "typescript": "^2.0.2",
-    "typings":"^1.3.2"
+    "concurrently": "^3.4.0",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.2.2",
+    "typings":"^2.1.0"
   }
 }
 ```
@@ -74,9 +72,9 @@ Neem de volgende code over in gelijknamige bestanden.
 ```javascript
 {
   "globalDependencies": {
-    "core-js": "registry:dt/core-js#0.0.0+20160725163759",
-    "jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
-    "node": "registry:dt/node#6.0.0+20160831021119"
+    "core-js": "registry:dt/core-js",
+    "jasmine": "registry:dt/jasmine",
+    "node": "registry:dt/node"
   }
 }
 ```
