@@ -1,6 +1,52 @@
 # Stap 12 - HTTP
 In deze stap gaan we de service aansluiten op een http service backend.
 
+## Wijziging in systemjs
+
+Pas systemjs.config als volgt aan.
+
+```javascript
+/**
+ * System configuration for Angular 2 samples
+ * Adjust as necessary for your application needs.
+ */
+(function (global) {
+  System.config({
+    paths: {
+      // paths serve as alias
+      'npm:': 'node_modules/'
+    },
+    // map tells the System loader where to look for things
+    map: {
+      // our app is within the app folder
+      app: 'app',
+      // angular bundles
+      '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
+      '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
+      '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.js',
+      '@angular/platform-browser': 'npm:@angular/platform-browser/bundles/platform-browser.umd.js',
+      '@angular/platform-browser-dynamic': 'npm:@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js',
+      '@angular/http': 'npm:@angular/http/bundles/http.umd.js',
+      '@angular/router': 'npm:@angular/router/bundles/router.umd.js',
+      '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
+      // other libraries
+      'rxjs':                       'npm:rxjs',
+      'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js'
+    },
+    // packages tells the System loader how to load when no filename and/or no extension
+    packages: {
+      app: {
+        main: './main.js',
+        defaultExtension: 'js'
+      },
+      rxjs: {
+        defaultExtension: 'js'
+      }
+    }
+  });
+})(this);
+```
+
 De http module om te communiceren met een http backend zit niet standaard in de angular core. We moeten dus de http module importeren.
 Ook systemjs moet weten dat we de http module gaan gebruiken *bekijk systemjs.config*
 
@@ -19,14 +65,14 @@ We kunnen nu de module importeren in onze applicatie.
       ]
 ```
 
-Omdat we nog geen echte http backend hebben kunnen we deze simuleren met `angular2-in-memory-web-api` We kunnen zo wel de http client gebruiken
+Omdat we nog geen echte http backend hebben kunnen we deze simuleren met `angular-in-memory-web-api` We kunnen zo wel de http client gebruiken
 alleen wordt deze vervangen(Injection) door de in-memory-web-api.
 
 We gaan daarvoor eerst een stub service maken. Maak het bestand `in-memory-data.service.ts` aan in de app.ts folder.
 
 ## in-memory-data.service.ts
 ```javascript
-import { InMemoryDbService } from 'angular2-in-memory-web-api';
+import { InMemoryDbService } from 'angular-in-memory-web-api';
 export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     let heroes = [
@@ -51,7 +97,7 @@ We kunnen nu gebruik maken van de stub db service. We moeten hiervoor weer de mo
 ## app.module.ts
 ```javascript
 // Imports for loading & configuring the in-memory web api
-import { InMemoryWebApiModule } from 'angular2-in-memory-web-api';
+import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 
 InMemoryWebApiModule.forRoot(InMemoryDataService),
