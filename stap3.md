@@ -9,7 +9,7 @@ Maak nu een component aan binnen de app directory `app.component.ts`
 import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
-  template: '<h1>My First Angular 2 App</h1>'
+  template: '<h1>My First Angular App</h1>'
 })
 export class AppComponent { }
 ```
