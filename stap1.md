@@ -62,7 +62,8 @@ Neem de volgende code over in gelijknamige bestanden.
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "lib": ["dom","es2015"]
   }
 }
 ```
@@ -72,7 +73,6 @@ Neem de volgende code over in gelijknamige bestanden.
 ```javascript
 {
   "globalDependencies": {
-    "core-js": "registry:dt/core-js",
     "jasmine": "registry:dt/jasmine",
     "node": "registry:dt/node"
   }
