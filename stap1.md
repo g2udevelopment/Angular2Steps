@@ -132,6 +132,6 @@ Dit is de definitie van een standaard angular 2 project het is handig om deze be
 Voer nu het commando `npm install` uit npm zal nu alle package binnen halen en lokaal opslaan.
 
 # Opdrachten
-1. Voeg de volgende packages toe. angular/common(rc6)
+1. Voeg de volgende packages toe. angular/common(4.0.1)
 2. Definieer een commando lite en voer het commando lite-server uit.
 3. Voer commando’s uit om te kijken wat ze doen.
